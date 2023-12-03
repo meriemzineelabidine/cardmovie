@@ -1,0 +1,126 @@
+.img-logo {
+  width: 220px;
+  height: 150px;
+  margin-top: -50px;
+}
+.menu{
+  height: 200px;
+  display: flex;
+}
+.sous-menu{
+  display: flex;
+}
+.sous-menu li{
+  list-style: none;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+}
+.navbar input{
+  margin-top: 20px;
+  background-color: rgba(128, 128, 128, 0.101);
+  border-radius: 2px;
+  border: 1px solid white;
+  padding: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.sous-menu a{
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 7px;
+}
+.sous-menu a:hover{
+  color: red;
+}
+.box{ 
+  height: 280px;
+  width: 25.9%;
+  background-color: rgba(128, 128, 128, 0.065);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  margin-top: 50px;
+  box-sizing: hidden;
+  box-shadow: 3px 3px 10px rgba(128, 128, 128, 0.38);
+
+}
+.description{
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 15px;
+  font-family: 300px;
+  margin-top: 10px;
+  color: white;
+}
+
+.film{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.lien a{
+  font-size: 10px;
+  margin-top: 10px;
+  color: rgb(80, 80, 242);
+}
+.style-txt{
+  font-size: 15px;
+  margin-top: 10px;
+  color: white;
+}
+.App{
+  background-color: black;
+}
+.title{
+ color: white;
+ font-size: 20px;
+ font-weight: bold;
+  
+}
+.img-film{
+  width:200px;
+  height: 140px;
+}
+.contenu{
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: -100px;
+
+ 
+}
+.contenu input{
+ width: 33.33%;
+ margin-top: 10px;
+ font-size: 20px;
+ background-color: rgba(128, 128, 128, 0.27);
+ color: white;
+ border: none;
+ padding: 5px;
+}
+.contenu button {
+  margin-top: 10px;
+  font-size: 20px;
+  color: red;
+}
+.footer{
+ background-color: rgba(128, 128, 128, 0.157);
+ height: 80px;
+  margin-top: 200px;
+}
+.sous-footer {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+ 
+}
+.sous-footer div {
+  margin-top: 20px;
+}
