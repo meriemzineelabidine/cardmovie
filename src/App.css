@@ -75,15 +75,18 @@ justify-content: space-around;
   margin-top: 10px;
   color: white;
 }
-.App{
-  background-color: black;
-}
+
 .title{
  color: white;
  font-size: 20px;
  font-weight: bold;
+
   
 }
+.App{
+  background-color: black;
+}
+
 .img-film{
   width:200px;
   height: 140px;
@@ -114,6 +117,7 @@ justify-content: space-around;
  background-color: rgba(128, 128, 128, 0.157);
  height: 80px;
   margin-top: 200px;
+  width: 100%;
 }
 .sous-footer {
   display: flex;
@@ -123,4 +127,37 @@ justify-content: space-around;
 }
 .sous-footer div {
   margin-top: 20px;
+}
+.moviechoisi{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  margin-top: 100px;
+}
+.desc{
+  width: 100%;
+
+}
+.bg{
+  background-color: black;
+  height:100px;
+}
+.btn{
+ margin-top: 20px;
+ font-size: 18px;
+ background-color: white;
+ color: red;
+border-radius: 10px;
+box-shadow: 2px 2px 20px rgba(128, 128, 128, 0.258);
+ font-weight: bold;
+ padding: 10px;
+
+}
+.tt{
+  text-decoration: none;
+}
+.title:hover{
+color: red;
 }

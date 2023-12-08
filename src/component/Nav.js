@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Nav(){
     return(
         <div >
@@ -5,12 +7,12 @@ function Nav(){
                 <div><img src="../images/logo.png"  className="img-logo"></img></div>
                 <div>
                     <ul className="sous-menu">
-                        <li><a>Home</a></li>
-                        <li><a>TV Shows</a></li>
-                        <li><a>Movies</a></li>
-                        <li><a>New & Popular</a></li>
-                        <li><a>My List</a></li>
-                        <li><a>Browse By Language</a></li>
+                      <Link to="/"> <li>Home</li></Link> 
+                        <Link><li>TV Shows</li></Link>
+                        <Link><li>Movies</li></Link>
+                        <Link><li>New & Popular</li></Link>
+                        <Link><li>My List</li></Link>
+                        <Link><li>Browse By Language</li></Link>
                     </ul>
                 </div>
             </div>
